@@ -29,7 +29,8 @@
             "hostPort": 80,
             "containerPoort": 80
           }
-        ]
+        ],
+        "links": ["client", "server"]
       }
     ]
   }
