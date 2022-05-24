@@ -13,6 +13,7 @@ RUN npm install
 # COPY . .
 COPY --chown=node:node ./ ./
 RUN npm run build
+RUN ls -la
 
 FROM nginx
 EXPOSE 3000
