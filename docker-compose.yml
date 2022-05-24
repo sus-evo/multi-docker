@@ -29,4 +29,3 @@ services:
     hostname: nginx
     ports:
       - "80:80"
-
